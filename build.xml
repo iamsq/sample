@@ -13,9 +13,8 @@
 	<property file="build.properties" />
 
 	<path id="cobertura.classpath">
-		<fileset dir="${cobertura.dir}">
-			<include name="cobertura.jar" />
-			<include name="lib/**/*.jar" />
+		<fileset dir="${cobertura.dir}">			
+			<include name="*.jar" />
 		</fileset>
 	</path>
 
